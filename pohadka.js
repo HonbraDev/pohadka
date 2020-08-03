@@ -20,7 +20,7 @@ function generatePohadka(pecivo, mazani) {
 
     for (var i = 2; i < all.length; i++) {
         pohadka += "\n\n";
-        pohadka += `Takže jde ${makePartyString(i + 1, 1)} a potká ${all[i][4]}. A ${all[i][1]} povídá: "${makePartyString(i + 1, 5)}, můžu jít s vámi?", přičemž ${makePartyString(i + 1, 1)} odpoví: "Jo, můžeš".`;
+        pohadka += `Takže jde ${makePartyString(i, 1)} a potká ${all[i][4]}. A ${all[i][1]} povídá: "${makePartyString(i, 5)}, můžu jít s vámi?", přičemž ${makePartyString(i, 1)} odpoví: "Jo, můžeš".`;
     }
 
     function makePartyString(input, pad) {
