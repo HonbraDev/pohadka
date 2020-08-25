@@ -10,7 +10,7 @@ Importujte script v headu
 
 ## Použití
 
-Funkce `generatePohadka()` vrátí generovanou pohádku. `generatePohadka()` očekává 2 arraye:
+Funkce `generatePohadka()` vrátí generovanou pohádku. `generatePohadka()` očekává 2 arraye a jeden boolean:
 
 ### Pečivo
     [
@@ -32,7 +32,10 @@ Funkce `generatePohadka()` vrátí generovanou pohádku. `generatePohadka()` oč
       " s máslem", // nezapoměňte na mezeru na začátku stringu!
       " s máslem se salámem"
     ]
-    
+
+### Domů
+  true / false
+
 ### Příklad
 
     generatePohadka(
@@ -52,7 +55,8 @@ Funkce `generatePohadka()` vrátí generovanou pohádku. `generatePohadka()` oč
         "",
         " s máslem",
         " s máslem se salámem"
-      ]
+      ],
+      false
     );
 
 ## Generovaná pohádka (příklad)
